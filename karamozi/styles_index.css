@@ -1,0 +1,141 @@
+/*صفحه اصلی*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#banner{
+  background: linear-gradient(rgba(0,0,0.2,0.2),#250029), url(image/bar4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner-text{
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+}
+
+.banner-text h1{
+  font-size: 60px;
+}
+
+.banner-text p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.menu-btn{
+  margin: 0;
+  text-align: right;
+}
+
+.menu-btn a{
+  width: 80px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 7px;
+  padding: 8px 0;
+  color: white;
+  border: 0.5px solid white;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.menu-btn a span{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.menu-btn a:hover span{
+  width: 100%;
+}
+
+.menu-btn a:hover{
+  color: black;
+}
+
+/*بخش جدول*/
+
+#banner, #content{
+  margin-bottom: 200px;
+}
+
+#content{
+  margin: 60px;
+  height: 20vh;
+  padding-bottom: 400px;
+}
+
+#content table{
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px;
+  background-color: rgb(211, 196, 211); 
+}
+
+#content caption{
+  font-size: 40px;
+  padding: 10px;
+}
+
+#content th{
+  width: 100%;
+}
+
+#content td{
+  height: 100px;
+  border-style: solid;
+  border-color: #8d8291;
+  border: 5px solid white;
+}
+
+#content table a{
+  text-decoration: none;
+}
+
+#content table a:link{
+  color: rgb(10, 125, 10);
+  background-color: transparent;
+}
+
+#content table a:visited {
+  color: rgb(197, 105, 13);
+  background-color: transparent;
+}
+
+#content table a:hover{
+  color: yellow;
+  background-color: transparent;
+}
+
+#content table a:active{
+  color: red;
+  background-color: transparent;
+}
+
+/*بخش فوتر*/
+
+#footer{
+  text-align: center;
+  padding-bottom: 20px;
+  background-size: cover;
+  background: linear-gradient(rgba(0,0,0.2,0.2),#25022ae0) 
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
